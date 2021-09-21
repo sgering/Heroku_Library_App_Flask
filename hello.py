@@ -11,7 +11,7 @@ def hello():
 
 @app.route("/John")
 def John():
-  return "Hello John!"
+  return <a href="http://mylink.com" target="_blank">Link</a>
 
 if __name__ == "__main__":
   app.run(debug=True)
