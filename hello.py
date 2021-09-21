@@ -1,9 +1,12 @@
 from flask import Flask
+import os
 
 app = Flask(__name__)
 
 @app.route("/")
 def hello():
+  
+  os.system("open https://google.com")
   return "Hello World!"
 
 @app.route("/John")
