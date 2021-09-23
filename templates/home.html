@@ -2,22 +2,46 @@
 <html>
 <head>
 <style>
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+button {width: 250px;}
+
 h1 {
   text-align: center;
+  font-size: 40px;
 }
 
-h2 {
-  text-align: center;
+input {
+  text-align: left;
+  font-size: 30px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  
 }
 
 h3 {
   text-align: center;
+  font-size: 40px;
+
 }
 </style>
 </head>
 <h1>Library Search <text-align: center></h1>
 <h2> Enter Name, Keyword, or Author <input type="string" name="a" id="a" ><br></h2>
-<h3><button onclick="concat(document.getElementById('a').value)">Search</button></h3>
+<h3><button  onclick="concat(document.getElementById('a').value)">Search</button></h3>
+
 
 
 <script>
@@ -36,4 +60,5 @@ h3 {
 </script>
 </body>
 </html>
+
 
